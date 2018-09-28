@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1164991038168:jetbrains.mps.baseLanguage.structure.ThrowStatement" />
+  <root nodeRef="r:30fae184-5d4f-4a23-b1e2-75ab72208ebd(common.interfaces)/8216867906303533181">
+    <file name="IPointerTarget.java">
+      <node id="8216867906303549531" at="8,0,9,0" concept="3" trace="metaType#()Ljava/lang/String;" />
+      <node id="8216867906303585490" at="9,0,10,0" concept="3" trace="name#()Ljava/lang/String;" />
+      <node id="8216867906303586873" at="10,0,11,0" concept="3" trace="pointsToMe#(Lcommon/interfaces/IPointer;)V" />
+      <node id="8216867906303594892" at="11,0,12,0" concept="3" trace="canPointToMe#(Lcommon/interfaces/IPointer;)Z" />
+      <scope id="8216867906303549531" at="8,0,9,0" />
+      <scope id="8216867906303585490" at="9,0,10,0" />
+      <scope id="8216867906303586873" at="10,0,11,0">
+        <var name="inPointer" id="8216867906303586933" />
+      </scope>
+      <scope id="8216867906303594892" at="11,0,12,0">
+        <var name="inPointer" id="8216867906303594980" />
+      </scope>
+      <unit id="8216867906303533181" at="6,0,13,0" name="common.interfaces.IPointerTarget" />
+    </file>
+  </root>
+  <root nodeRef="r:30fae184-5d4f-4a23-b1e2-75ab72208ebd(common.interfaces)/8216867906303585350">
+    <file name="IPointer.java">
+      <node id="8216867906303585399" at="8,0,9,0" concept="3" trace="target#()Lcommon/interfaces/IPointerTarget;" />
+      <scope id="8216867906303585399" at="8,0,9,0" />
+      <unit id="8216867906303585350" at="6,0,10,0" name="common.interfaces.IPointer" />
+    </file>
+  </root>
+  <root nodeRef="r:30fae184-5d4f-4a23-b1e2-75ab72208ebd(common.interfaces)/8216867906303595636">
+    <file name="AbstractIPointerTarget.java">
+      <node id="8216867906303551384" at="12,0,13,0" concept="1" trace="pointsToMe" />
+      <node id="8216867906303604334" at="17,37,18,69" concept="5" />
+      <node id="8216867906303606944" at="19,5,20,0" concept="4" />
+      <node id="8216867906303614998" at="21,67,22,77" concept="0" />
+      <node id="8216867906303633963" at="23,5,24,0" concept="4" />
+      <node id="8216867906303634803" at="24,0,25,65" concept="0" />
+      <node id="8216867906303603990" at="16,46,19,5" concept="2" />
+      <node id="8216867906303607039" at="20,0,23,5" concept="2" />
+      <node id="8216867906303603824" at="15,0,27,0" concept="3" trace="pointsToMe#(Lcommon/interfaces/IPointer;)V" />
+      <scope id="8216867906303603992" at="17,37,18,69" />
+      <scope id="8216867906303607041" at="21,67,22,77" />
+      <scope id="8216867906303603830" at="16,46,25,65" />
+      <scope id="8216867906303603824" at="15,0,27,0">
+        <var name="inPointer" id="8216867906303603828" />
+      </scope>
+      <unit id="8216867906303595636" at="10,0,29,0" name="common.interfaces.AbstractIPointerTarget" />
+    </file>
+  </root>
+</debug-info>
+

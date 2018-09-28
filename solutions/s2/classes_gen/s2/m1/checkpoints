@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoints>
+  <plan id="myPlan">
+    <checkpoint id="check0" file="myplan-check0.mps" />
+  </plan>
+  <plan id="myPlan">
+    <checkpoint id="check1" file="myplan-check1.mps" />
+  </plan>
+</checkpoints>
+

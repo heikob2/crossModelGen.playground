@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="plankit" uuid="f4e2125d-079d-46b8-8304-745f6223a509">
+  <exported-language name="8216fa52-aa01-4b4d-94a0-65b169678b1c(sample.lang)" />
+  <exported-language name="669610ca-6c43-422e-9f37-c5c3511f4ef8(sample.lang2)" />
+  <exported-language name="c1700382-310d-4ee1-9c2a-40abb0a5fca3(sample.lang.common)" />
+  <exported-solutions>
+    <exported-solution>f7deccdc-a8c1-44e1-af31-a39201f0d99a(common)</exported-solution>
+    <exported-solution>a0f0f04d-b6e9-4400-95f3-2b8fa8b9b12f(sample.plan)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:1b22a055-5d07-428a-bd5d-d0242ed2d41a(sample.plan.plan)" />
+</dev-kit>
+

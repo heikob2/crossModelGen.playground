@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="s2.m1.a1_s2m1" file="a1_s2m1.java">
+    <classNode dependClassName="common.interfaces.IPointer" />
+    <classNode dependClassName="common.interfaces.IPointerTarget" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="s2.m1.b1_s2m1" />
+    <classNode extendsClassName="common.interfaces.AbstractIPointerTarget" />
+  </dependency>
+  <dependency className="s2.m1.b1_s2m1" file="b1_s2m1.java">
+    <classNode dependClassName="common.interfaces.IPointer" />
+    <classNode dependClassName="common.interfaces.IPointerTarget" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="s2.m1.a1_s2m1" />
+    <classNode extendsClassName="common.interfaces.AbstractIPointerTarget" />
+  </dependency>
+</dependenciesRoot>
+

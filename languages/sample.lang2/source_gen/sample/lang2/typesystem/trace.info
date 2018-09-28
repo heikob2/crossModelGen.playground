@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="sample.lang2.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:0a03989f-dde8-4139-b84d-c31ac8120e84(sample.lang2.typesystem)/8216867906302607886">
+    <file name="b_pointsTo_opposite_NonTypesystemRule.java">
+      <node id="8216867906302608841" at="26,216,27,243" concept="6" />
+      <node id="8216867906302608849" at="28,7,29,32" concept="6" />
+      <node id="8216867906302608852" at="30,168,31,42" concept="6" />
+      <node id="8216867906302608862" at="32,221,33,200" concept="2" />
+      <node id="8216867906302608872" at="36,13,37,66" concept="6" />
+      <node id="8216867906302608872" at="37,66,38,226" concept="6" />
+      <node id="8216867906302608872" at="39,15,40,138" concept="6" />
+      <node id="8216867906302608872" at="40,138,41,58" concept="2" />
+      <node id="8216867906302608872" at="41,58,42,77" concept="2" />
+      <node id="8216867906302608875" at="45,13,46,66" concept="6" />
+      <node id="8216867906302608875" at="46,66,47,388" concept="6" />
+      <node id="8216867906302608886" at="52,7,53,32" concept="6" />
+      <node id="8216867906302608889" at="54,169,55,42" concept="6" />
+      <node id="8216867906302608899" at="56,221,57,200" concept="2" />
+      <node id="8216867906302608909" at="60,13,61,66" concept="6" />
+      <node id="8216867906302608909" at="61,66,62,226" concept="6" />
+      <node id="8216867906302608909" at="63,15,64,138" concept="6" />
+      <node id="8216867906302608909" at="64,138,65,58" concept="2" />
+      <node id="8216867906302608909" at="65,58,66,77" concept="2" />
+      <node id="8216867906302608912" at="69,13,70,66" concept="6" />
+      <node id="8216867906302608912" at="70,66,71,388" concept="6" />
+      <node id="8216867906302607886" at="78,50,79,132" concept="7" />
+      <node id="8216867906302607886" at="81,68,82,102" concept="7" />
+      <node id="8216867906302607886" at="84,30,85,17" concept="7" />
+      <node id="8216867906302607886" at="23,0,25,0" concept="1" trace="b_pointsTo_opposite_NonTypesystemRule#()V" />
+      <node id="8216867906302608856" at="31,42,34,11" concept="3" />
+      <node id="8216867906302608893" at="55,42,58,11" concept="3" />
+      <node id="8216867906302607886" at="78,0,81,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="8216867906302607886" at="81,0,84,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="8216867906302607886" at="84,0,87,0" concept="5" trace="overrides#()Z" />
+      <node id="8216867906302608875" at="44,13,48,13" concept="0" />
+      <node id="8216867906302608912" at="68,13,72,13" concept="0" />
+      <node id="8216867906302608872" at="38,226,43,15" concept="0" />
+      <node id="8216867906302608909" at="62,226,67,15" concept="0" />
+      <node id="8216867906302608872" at="35,35,44,13" concept="0" />
+      <node id="8216867906302608909" at="59,35,68,13" concept="0" />
+      <node id="8216867906302608870" at="34,11,49,11" concept="4" />
+      <node id="8216867906302608907" at="58,11,73,11" concept="4" />
+      <node id="8216867906302608849" at="29,32,50,9" concept="4" />
+      <node id="8216867906302608886" at="53,32,74,9" concept="4" />
+      <node id="8216867906302608849" at="27,243,51,7" concept="0" />
+      <node id="8216867906302608886" at="51,7,75,7" concept="0" />
+      <node id="8216867906302608835" at="25,114,76,5" concept="3" />
+      <node id="8216867906302607886" at="25,0,78,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="8216867906302607886" at="23,50,23,50" />
+      <scope id="8216867906302608861" at="32,221,33,200" />
+      <scope id="8216867906302608898" at="56,221,57,200" />
+      <scope id="8216867906302607886" at="78,50,79,132" />
+      <scope id="8216867906302607886" at="81,68,82,102" />
+      <scope id="8216867906302607886" at="84,30,85,17" />
+      <scope id="8216867906302607886" at="23,0,25,0" />
+      <scope id="8216867906302608875" at="45,13,47,388">
+        <var name="_reporter_2309309498" id="8216867906302608875" />
+        <var name="errorTarget" id="8216867906302608875" />
+      </scope>
+      <scope id="8216867906302608912" at="69,13,71,388">
+        <var name="_reporter_2309309498" id="8216867906302608912" />
+        <var name="errorTarget" id="8216867906302608912" />
+      </scope>
+      <scope id="8216867906302608856" at="31,42,34,11">
+        <var name="pa" id="8216867906302608857" />
+      </scope>
+      <scope id="8216867906302608872" at="39,15,42,77">
+        <var name="intentionProvider" id="8216867906302608872" />
+      </scope>
+      <scope id="8216867906302608893" at="55,42,58,11">
+        <var name="pa" id="8216867906302608894" />
+      </scope>
+      <scope id="8216867906302608909" at="63,15,66,77">
+        <var name="intentionProvider" id="8216867906302608909" />
+      </scope>
+      <scope id="8216867906302607886" at="78,0,81,0" />
+      <scope id="8216867906302607886" at="81,0,84,0">
+        <var name="argument" id="8216867906302607886" />
+      </scope>
+      <scope id="8216867906302607886" at="84,0,87,0" />
+      <scope id="8216867906302608872" at="36,13,43,15">
+        <var name="_reporter_2309309498" id="8216867906302608872" />
+        <var name="errorTarget" id="8216867906302608872" />
+      </scope>
+      <scope id="8216867906302608909" at="60,13,67,15">
+        <var name="_reporter_2309309498" id="8216867906302608909" />
+        <var name="errorTarget" id="8216867906302608909" />
+      </scope>
+      <scope id="8216867906302608871" at="35,35,48,13" />
+      <scope id="8216867906302608908" at="59,35,72,13" />
+      <scope id="8216867906302608851" at="30,168,49,11">
+        <var name="existsPointedBy" id="8216867906302608853" />
+      </scope>
+      <scope id="8216867906302608888" at="54,169,73,11">
+        <var name="existsPointedBy" id="8216867906302608890" />
+      </scope>
+      <scope id="8216867906302608849" at="28,7,50,9">
+        <var name="at" id="8216867906302608849" />
+      </scope>
+      <scope id="8216867906302608886" at="52,7,74,9">
+        <var name="bt" id="8216867906302608886" />
+      </scope>
+      <scope id="8216867906302608840" at="26,216,75,7">
+        <var name="target" id="8216867906302608842" />
+      </scope>
+      <scope id="8216867906302607887" at="25,114,76,5" />
+      <scope id="8216867906302608835" at="25,114,76,5">
+        <var name="bpOut" id="8216867906302608836" />
+      </scope>
+      <scope id="8216867906302607886" at="25,0,78,0">
+        <var name="b" id="8216867906302607886" />
+        <var name="status" id="8216867906302607886" />
+        <var name="typeCheckingContext" id="8216867906302607886" />
+      </scope>
+      <unit id="8216867906302607886" at="22,0,88,0" name="sample.lang2.typesystem.b_pointsTo_opposite_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+
